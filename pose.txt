@@ -1,0 +1,12 @@
+Fundamental Matrix computed, inliers: 91
+Essential Matrix E computed
+ Rotation matrix R:
+[[ 0.99994627 -0.00402226 -0.00955352]
+ [ 0.00423146  0.99974946  0.02197966]
+ [ 0.00946272 -0.0220189   0.99971277]]
+
+ Translation vector t (up to scale):
+ 
+[[-9.99523074e-01]
+ [-7.88100719e-04]
+ [ 3.08707405e-02]]
