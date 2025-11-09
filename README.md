@@ -46,6 +46,4 @@ Points triangulated using cv2.triangulatePoints().
 Observation: Flattened reconstruction indicates small baseline or calibration errors.
 
 6) Creative Visualization (Bonus)
-Depth colorized 3-D points using Z-value heatmap.
-Output: depth_colorized.png
-Insight: Color gradient clearly shows depth variation across the scene.
+
