@@ -52,3 +52,10 @@ Observation: Flattened reconstruction indicates small baseline or calibration er
 
 11) Creative Visualization (Bonus)
 
+In this experiment, we tested different feature detectors—SIFT, ORB, and AKAZE—to compare their effect on 3-D reconstruction.
+
+SIFT produced the most stable and accurate point matches across images due to its invariance to scale and rotation.
+
+ORB and AKAZE were faster but yielded fewer and less precise matches, slightly reducing reconstruction quality.
+
+This demonstrates the trade-off between accuracy and runtime, helping choose a detector based on task priorities.
