@@ -18,7 +18,7 @@ It extracts features, reconstructs 3D points, and visualizes the scene.
 **Q4:** What is the real-world trade-off between accuracy and runtime in SfM?  
 **A4:** Higher accuracy requires more computation and runtime; faster methods sacrifice precision for speed.
 
- Results:
+## Results
  
 1) Feature Detection
 Top 100 SIFT keypoints detected per image.
