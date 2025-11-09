@@ -23,27 +23,32 @@ It extracts features, reconstructs 3D points, and visualizes the scene.
 1) Feature Detection
 Top 100 SIFT keypoints detected per image.
 Keypoints visualized: feature_keypoints.png
+
 Observation: Keypoints cover textured areas densely, ensuring robust matching.
 
-2) Feature Matching
+3) Feature Matching
 Matched using BFMatcher with crossCheck=True.
 Visual output: output_match.jpg
+
 Observation: Increasing ratio threshold reduces false matches but may remove valid ones.
 
-3) Geometry Estimation
+5) Geometry Estimation
 Fundamental Matrix (F) computed using RANSAC.
-Inlier matches: 91 / 100
+Inlier matches: 85 / 100
+
 Observation: Smaller RANSAC thresholds increase accuracy but reduce inliers.
 
-4) Pose Estimation
+7) Pose Estimation
 Essential Matrix (E) computed assuming intrinsic matrix K.
 Rotation (R) and translation (t) recovered: pose.txt
+
 Translation vector direction: Indicates the relative motion between cameras along the 3-D scene.
 
-5) 3-D Reconstruction
+9) 3-D Reconstruction
 Points triangulated using cv2.triangulatePoints().
 3-D visualization: reconstruction.png
+
 Observation: Flattened reconstruction indicates small baseline or calibration errors.
 
-6) Creative Visualization (Bonus)
+11) Creative Visualization (Bonus)
 
